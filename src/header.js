@@ -47,9 +47,12 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <Link className="nav-link getstarted" href="https://personal.qliqinvest.ru">
+              <a
+                className="nav-link getstarted"
+                href="https://personal.qliqinvest.ru"
+              >
                 Войти
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>
