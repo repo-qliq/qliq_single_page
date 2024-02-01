@@ -28,6 +28,7 @@ function App() {
           trackLinks: true,
           accurateTrackBounce: true,
         }}
+        version="2"
       />
       <div>
         <Helmet>
