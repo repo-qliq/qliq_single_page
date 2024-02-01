@@ -17,9 +17,6 @@ import "./assets/vendor/glightbox/css/glightbox.min.css";
 import "./assets/vendor/remixicon/remixicon.css";
 import "./assets/vendor/swiper/swiper-bundle.min.css";
 import { YMInitializer } from "react-yandex-metrika";
-import ym from "react-yandex-metrika";
-ym("hit", "/cart");
-ym("reachGoal", "whateverGoal", { awesomeParameter: 42 });
 function App() {
   return (
     <Router>
