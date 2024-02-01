@@ -285,7 +285,7 @@ const Hero = () => {
               <div className="cube__face"></div>
             </div>
           </div>
-          {/* <div className="comp-3d comp-3d--o">
+          <div className="comp-3d comp-3d--o">
             <div className="pos">
               <div className="cube">
                 <div className="cube__face"></div>
@@ -366,7 +366,7 @@ const Hero = () => {
                 <div className="cube__face"></div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="placer_background">
           <div
