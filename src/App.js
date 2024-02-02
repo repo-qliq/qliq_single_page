@@ -17,6 +17,8 @@ import "./assets/vendor/glightbox/css/glightbox.min.css";
 import "./assets/vendor/remixicon/remixicon.css";
 import "./assets/vendor/swiper/swiper-bundle.min.css";
 import { YMInitializer } from "react-yandex-metrika";
+import routes from "./routes";
+
 function App() {
   return (
     <Router>
@@ -43,12 +45,7 @@ function App() {
           />
         </Helmet>
         <Header />
-        <Routes>
-          <Route exact path="/" element={<Hero />} />
-          <Route path="/Investor" element={<InvestorPage />} />
-          <Route path="/Borrower" element={<BorrowerPage />} />
-          {/* Другие маршруты */}
-        </Routes>
+        {routes}
         <Footer />
       </div>
     </Router>

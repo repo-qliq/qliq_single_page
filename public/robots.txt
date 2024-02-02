@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://qliqinvest.ru/sitemap.xml
