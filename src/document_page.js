@@ -131,7 +131,7 @@ const Document_page = () => {
               {qliqDocuments.map((el) => {
                 return (
                   <>
-                    <div className="h-[25rem] w-full flex items-center justify-center ">
+                    <div className="w-full flex items-center justify-center ">
                       <PinContainer title="Открыть документ" href={el.path}>
                         <div className="flex basis-full flex-col p-0 tracking-tight text-slate-100/50 sm:basis-1/2 w-[16rem] h-[16rem] ">
                           <h3 className="max-w-xs !pb-1 !m-0 font-bold  text-sm text-slate-100">
