@@ -32,12 +32,12 @@ const Header = () => {
         <nav id="navbar" className="navbar">
           <ul>
             <li>
-              <Link className="nav-link scrollto" to="/Investor">
+              <Link className="nav-link scrollto" to="/investor">
                 Инвестору
               </Link>
             </li>
             <li>
-              <Link className="nav-link scrollto" to="/Borrower">
+              <Link className="nav-link scrollto" to="/borrower">
                 Заемщику
               </Link>
             </li>

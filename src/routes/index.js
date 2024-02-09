@@ -7,9 +7,9 @@ import Document_page from "../document_page";
 const routes = (
   <Routes>
     <Route exact path="/" element={<Hero />} />
-    <Route path="/Investor" element={<Investor_page />} />
-    <Route path="/Borrower" element={<Borrower_page />} />
-    <Route path="/Documents" element={<Document_page />} />
+    <Route path="/investor" element={<Investor_page />} />
+    <Route path="/borrower" element={<Borrower_page />} />
+    <Route path="/documents" element={<Document_page />} />
   </Routes>
 );
 
