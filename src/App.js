@@ -18,6 +18,7 @@ import "./assets/vendor/remixicon/remixicon.css";
 import "./assets/vendor/swiper/swiper-bundle.min.css";
 import { YMInitializer } from "react-yandex-metrika";
 import routes from "./routes";
+import ScrollToTop from "./util/scrollToTop";
 
 function App() {
   return (
@@ -45,6 +46,8 @@ function App() {
           />
         </Helmet>
         <Header />
+
+        <ScrollToTop />
         {routes}
         <Footer />
       </div>

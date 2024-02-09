@@ -76,7 +76,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <Link href="/documents">Раскрытие информации</Link>
+                  <Link to={"/Documents"}>Раскрытие информации</Link>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
@@ -106,7 +106,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
-                  <Link href="/documents/?type=doc">Документы</Link>
+                  <Link to={"/Documents"}>Документы</Link>
                 </li>
                 <li>
                   <i className="bi bi-chevron-right"></i>{" "}
