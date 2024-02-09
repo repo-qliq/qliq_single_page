@@ -127,7 +127,7 @@ const Document_page = () => {
             <div className="flex flex-col items-center justify-center  ">
               <TypewriterEffectSmooth words={words} />
             </div>
-            <div class="grid grid-cols-4">
+            <div class="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 ">
               {qliqDocuments.map((el) => {
                 return (
                   <>
